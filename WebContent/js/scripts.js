@@ -38,7 +38,7 @@ function showError(error) {
 
 function callAPI(position) {
 	var Paramkey = "&APPID=e87443021b8fe2a11b09118413a4dd8c";
-	var urlAPI = "http://api.openweathermap.org/data/2.5/weather?";
+	var urlAPI = "https://api.openweathermap.org/data/2.5/weather?";
 	var lat = "lat=" + position.coords.latitude + "";
 	var ion = "&lon=" + position.coords.longitude + "";
 
